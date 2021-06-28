@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+.opremaDiv{
+    position: absolute;
+    top: 460vh;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+  
+    background-color:whitesmoke ;
+    transform: skewY(3deg);
+    z-index: 7;
+  
+  
+ 
+ 
+}
+.opremaDrugiDiv{
+    height: 100%;
+    width: 100%;
+    transform: skewY(-3deg);
+
+}
+.divSaSlikama{
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 40px;
+    
+}
+.divSaSlikama img{
+ 
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+ 
+@media only screen and (max-width: 768px) {
+
+    .opremaDiv{
+        position: absolute;
+        top: 1240vh;
+        height: 200vh;
+        width: 100%;
+        font-family: 'Source Code Pro', monospace;
+        cursor: pointer;
+      
+        background-color:whitesmoke ;
+        transform: skewY(3deg);
+        z-index: 7;
+      
+      
+     
+     
+    }
+    
+    
+    
+    
+    
+      
+      }
+
+
+      @media only screen and (max-width: 575px) {
+
+        .opremaDiv{
+            position: absolute;
+            top: 1240vh;
+            height: 210vh;
+            width: 100%;
+            font-family: 'Source Code Pro', monospace;
+            cursor: pointer;
+          
+            background-color:whitesmoke ;
+            transform: skewY(3deg);
+            z-index: 7;
+          
+          
+         
+         
+        }
+        
+        
+        
+        
+        
+          
+          }
+    
+    

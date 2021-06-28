@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+.onamaDiv{
+
+    position: absolute;
+    top: 110vh;
+    height: 150vh;
+    width: 100%;
+    cursor: pointer;
+    background-color:#4da8f8 ;
+    transform: skewY(3deg);
+    z-index: 4;
+    font-family: 'Source Code Pro', monospace;
+  
+  
+  
+ 
+ 
+}
+.onamaDrugiDiv{
+    height: 100%;
+    width: 100%;
+    transform: skewY(-3deg);
+
+  
+
+}
+.divSlika{
+    height: 65vh;
+    width: 100%;
+
+
+}
+.divText{
+    height: 65vh;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #493e3e;
+    display: flex;
+    align-items: center;
+
+
+}
+.divSlika img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.divKomentari{
+    height: 30vh;
+    width: 100%;
+    background-color:  #493e3e;
+    border-radius: 8px;
+    color: whitesmoke;
+   
+   
+  
+  
+}
+.divKomentari2{
+    height: 30vh;
+    width: 100%;
+    background-color:  whitesmoke;
+    border-radius: 8px;
+    
+  
+  
+}
+
+@media only screen and (max-width: 768px) {
+
+    .onamaDiv{
+
+        position: absolute;
+        top: 225vh;
+        height: 240vh;
+        width: 100%;
+        cursor: pointer;
+        background-color:#4da8f8 ;
+        transform: skewY(3deg);
+        z-index: 4;
+        font-family: 'Source Code Pro', monospace;
+      
+      
+      
+     
+     
+    }
+
+    .divText{
+        height: 65vh;
+        width: 100%;
+        color: whitesmoke;
+        background-color: #493e3e;
+        display: flex;
+        align-items: center;
+        font-size: 0.9em;
+    
+    
+    }
+
+
+
+
+  }

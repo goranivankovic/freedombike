@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+
+.galerijaDiv{
+    position: absolute;
+    top: 260vh;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    background-color: whitesmoke;
+    transform: skewY(3deg);
+    z-index: 5;
+  
+  
+ 
+ 
+}
+.galerijaDrugiDiv{
+    height: 100%;
+    width: 100%;
+    transform: skewY(-3deg);
+
+}
+.slikaHW{
+    height: 20vh;
+    width: 100%;
+    border-radius:8px;
+}
+
+.couroselDiv{
+
+
+    position: absolute;
+ 
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(to right, #493e3e , #4da8f8);
+   
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    
+
+}
+.couroselDiv img{
+
+    height: 85vh;
+    width: 100%;
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .galerijaDiv{
+        position: absolute;
+        top: 466vh;
+        height: 600vh;
+        width: 100%;
+        font-family: 'Source Code Pro', monospace;
+        cursor: pointer;
+        background-color: whitesmoke;
+        transform: skewY(3deg);
+        z-index: 5;
+      
+      
+     
+     
+    }
+
+    .slikaHW{
+        height: 45vh;
+        width: 100%;
+        border-radius:8px;
+    }
+
+    .couroselDiv img{
+
+        height: 60vh;
+        width: 100%;
+    }
+    
+
+   
+
+
+
+  }

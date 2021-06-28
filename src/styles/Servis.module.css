@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+.servisDiv{
+    position: absolute;
+    top: 360vh;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+  
+    background-color:#4da8f8 ;
+    transform: skewY(3deg);
+    z-index: 6;
+  
+  
+ 
+ 
+}
+.servisDrugiDiv{
+    height: 100%;
+    width: 100%;
+    transform: skewY(-3deg);
+
+}
+.servisText{
+    height: 65vh;
+    width: 100%;
+   border-radius: 8px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.servisImgDiv{
+    height: 65vh;
+    width: 100%;
+   border-radius: 8px;
+
+
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+ 
+}
+img{
+    height: 30vh;
+    width: 100%;
+    margin: 3px;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .servisText{
+        height: 65vh;
+        width: 100%;
+       border-radius: 8px;
+        background-color: whitesmoke;
+        color: black;
+        display: flex;
+        align-items: center;
+        font-size:0.8em;
+    }
+  
+  }
+
+  
+@media only screen and (max-width: 768px) {
+    
+.servisDiv{
+    position: absolute;
+    top:1060vh;
+    height: 180vh;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+  
+    background-color:#4da8f8 ;
+    transform: skewY(3deg);
+    z-index: 6;
+  
+  
+ 
+ 
+}
+
+
+    .servisImgDiv{
+        height: 91vh;
+        width: 100%;
+       border-radius: 8px;
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+        margin-bottom: 10px;
+     
+    }
+
+
+
+    img{
+        height: 45vh;
+        width: 100%;
+        margin: 3px;
+        border-radius: 7px;
+    }
+    
+
+
+
+  
+  }
+
+
+
+  
