@@ -84,9 +84,9 @@ export default class Kontakt extends Component {
               </FormGroup>
 
                     <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <FormLabel className="float-left text-light">Message</FormLabel>
+                    <FormLabel className="float-left text-light">Poruka</FormLabel>
                         
-                        <Form.Control as="textarea" placeholder="Posalji poruku..." rows="6" name="message"/>
+                        <Form.Control as="textarea" placeholder="Posalji poruku..." rows="6" name="poruka"/>
                     </Form.Group>
                     <Button className="float-right bg-light text-dark btn-sm" type="submit"> Send</Button>
                 </Form>
@@ -124,13 +124,7 @@ export default class Kontakt extends Component {
 
 
 
-                                <Col className="text-light text-center " md={12}
-                                data-aos="fade-down"
-                                data-aos-offset="300"
-                                data-aos-delay="600"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-once="false">
+                                <Col className="text-light text-center " md={12}>
                                 <br></br>
                                 <Table striped bordered hover variant="dark">
                                         <thead>
