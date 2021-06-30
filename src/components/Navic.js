@@ -48,7 +48,7 @@ export default class Navic extends Component {
                                       
                                   }, 1200);
                                
-                              }}> Pocetna</li></Link>
+                              }}> Početna</li></Link>
 
                                <Link 
                               to="oNama"

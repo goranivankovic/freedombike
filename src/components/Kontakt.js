@@ -4,6 +4,7 @@ import kontaktStyles from '../styles/Kontakt.module.css'
 import{Container,Row,Col,Form,FormGroup,FormControl,FormLabel,Button,Table} from 'react-bootstrap'
 import {FaFacebook, FaInstagram} from 'react-icons/fa'
 import{FiHexagon}from 'react-icons/fi'
+import emailjs from 'emailjs-com';
 
 export default class Kontakt extends Component {
 
@@ -15,16 +16,18 @@ export default class Kontakt extends Component {
 
     sendEmailAndMessage(p){
 		p.preventDefault();
+       
+
 
 		
 	
-		// emailjs.sendForm('gmail', 'template_fm2n13w',p.target,'user_CUPedB8OkkfuUfSRyzgAo')
-		// .then((result) => {
-		// 	console.log(result.text);
-		// }, (error) => {
-		// 	console.log(error.text);
-		// });
-		// p.target.reset()
+		emailjs.sendForm('service_9he16kt','template_yddrc99',p.target,'user_2OTsAwy2951Sy3BzNYSHp')
+		.then((result) => {
+			console.log(result.text);
+		}, (error) => {
+			console.log(error.text);
+		});
+		p.target.reset()
 
 	}
 

@@ -77,9 +77,9 @@ export default class Onama extends Component {
                    
                      
                       
-                        Prepoznatljivi smo u gradu zbog našeg kavliteta  marljivog rada i profesionalnog tima koji već godinama Novosađanima  pruža vrhunske usluge , fantastičnu ponudu i svakako kvalitetne savete.
+                        Prepoznatljivi smo u gradu zbog našeg kvaliteta  marljivog rada i profesionalnog tima koji već godinama Novosađanima  pruža vrhunske usluge, fantastičnu ponudu i svakako kvalitetne savete.
 
-                        Freedombike Shop je nastao 2020. godine kao rezultat višegodišnjeg  i internacionalnog iskustva građenog u segmentu prodaje i održavanja, tako i u takmičarskom segmentu na internacionalnom nivou.
+                        Freedom Bike Shop je nastao 2020. godine kao rezultat višegodišnjeg  i internacionalnog iskustva građenog u segmentu prodaje i održavanja, tako i u takmičarskom segmentu na internacionalnom nivou.
 
                         Mi smo savršen spoj mladosti i iskustva. Naša pozitivna energija i sportski duh su kombinacija koja vam može pomoći.
                     

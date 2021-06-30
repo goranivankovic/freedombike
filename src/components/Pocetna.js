@@ -42,7 +42,7 @@ export default class Pocetna extends Component {
                         </Col>
                         <Col xs={12} className="text-center h5 text-secondary">
                         <br></br>
-                  <Anime translateX={[-1500,0]} duration={3000} rotate={['-20deg','0deg']} delay={1000}><span>SERVIS ZA BICIKLE, SKI SERVIS, RENT-A BAJK</span> </Anime>      
+                  <Anime translateX={[-1500,0]} duration={3000} rotate={['-20deg','0deg']} delay={1000}><span>SERVIS ZA BICIKLE, SKI SERVIS, RENT-A BIKE</span> </Anime>      
                         </Col>
 
                         <Col md={4} className={pocetnaStyles.prviDiv}>
