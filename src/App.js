@@ -101,6 +101,9 @@ umanji(a){
       <div>
       <Navic />
       <Pocetna />
+
+
+{/*       
       <Onama />
 
 
@@ -624,7 +627,15 @@ slika17:b15,
       <Servis />
       <Oprema />
       <Kontakt />
-      </div>
+      
+     
+       */}
+      </div>  
+
+
+
+
+
       :
       <div className={galerijaStyles.couroselDiv}>
         <Container>
@@ -764,7 +775,8 @@ slika17:b15,
         </Container>
         
         
-        </div>}
+         </div>}
+        
 
 
     </div>

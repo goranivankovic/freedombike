@@ -33,63 +33,77 @@ export default class Pocetna extends Component {
       AOS.init();
         return (
             <div className={pocetnaStyles.pocetnaDiv} id="pocetna">
-                <Container>
-                    <Row>
-                        <Col xs={12} className="text-right text-dark h5">
-                          <br></br>
-                          <br></br>
-                   <Anime translateY={[-250,0]} duration={2500} delay={2000} rotate={['-30deg','0deg']} ><span> Freedom Bike  <MdDirectionsBike className="h3 text-primary" /> </span></Anime>  
-                        </Col>
-                        <Col xs={12} className="text-center h5 text-secondary">
-                        <br></br>
-                  <Anime translateX={[-1500,0]} duration={3000} rotate={['-20deg','0deg']} delay={1000}><span>SERVIS ZA BICIKLE, SKI SERVIS, RENT-A BIKE</span> </Anime>      
-                        </Col>
-
-                        <Col md={4} className={pocetnaStyles.prviDiv}>
-                          <br></br>
-   <img src={b11} onMouseOver={this.umanji} onMouseOut={this.uvecaj}/> 
-
-                        </Col>
-                        <Col md={4} className={pocetnaStyles.prviDiv}>
-                          <br></br>
-                         
-                          <video src={bikeVideo} type="video/mp4" autoPlay={true} muted={true} loop={true}onMouseOver={this.umanji} onMouseOut={this.uvecaj}></video>
-
-                        </Col>
-                        <Col md={4} className={pocetnaStyles.prviDiv}>
-                          <br></br>
-                        
-                          <img src={b15} onMouseOver={this.umanji} onMouseOut={this.uvecaj} />
-
-                        </Col>
-                     
-
-                        <Col md={7} className={pocetnaStyles.drugiDiv}>
-                          <br></br>
-                          <div>
-                <video src={bikeDown} type="video/mp4" autoPlay={true} muted={true} loop={true} onMouseOver={this.umanji} onMouseOut={this.uvecaj}></video>
-                
-   
-            </div>
-                        
-
-                        </Col>
-                        <Col md={5} className={pocetnaStyles.drugiDiv}>
-                          <br></br>
-               
-                          <img src={b4} onMouseOver={this.umanji} onMouseOut={this.uvecaj} />
-
-                     
-                        </Col>
-                     
-                        
+            
                       
-                    </Row>
-                </Container>
-                
-             
+                  
+                  
 
-    
+                     <div className={pocetnaStyles.icons}> Freedom Bike  <MdDirectionsBike className="h3 text-primary" style={{marginLeft:"10px"}}/> </div>
+                     
+                   
+
+
+                     <div className={pocetnaStyles.main_div}>
+
+
+                     {/* <Anime translateX={[-1500,0]} duration={3000}  delay={1000}>         */}
+                      <div className={pocetnaStyles.headline}>
+                       SERVIS ZA BICIKLE, SKI SERVIS, RENT-A BIKE
+                       </div>
+                       {/* </Anime> */}
+
+
+                       <div className={pocetnaStyles.main_div_firstDiv}>
+
+                       
+                         <img src={b11} className={pocetnaStyles.slika} onMouseOver={this.umanji} onMouseOut={this.uvecaj}/> 
+
+
+                         <video src={bikeVideo} type="video/mp4" className={pocetnaStyles.main_div_firstdDiv_video} autoPlay={true} muted={true} loop={true}onMouseOver={this.umanji} onMouseOut={this.uvecaj}></video>
+                        
+
+                         <img src={b15} className={pocetnaStyles.slika} onMouseOver={this.umanji} onMouseOut={this.uvecaj}/> 
+
+                       
+
+
+
+
+
+
+                       </div>
+
+
+
+
+
+
+
+
+                       <div className={pocetnaStyles.main_div_secondDiv}>
+
+                     
+
+
+                      <video src={bikeDown} type="video/mp4" className={pocetnaStyles.main_div_secondDiv_video} autoPlay={true} muted={true} loop={true}onMouseOver={this.umanji} onMouseOut={this.uvecaj}></video>
+
+
+                      <img src={b4} className={pocetnaStyles.main_div_secondDiv_slika} onMouseOver={this.umanji} onMouseOut={this.uvecaj}/> 
+
+                           </div>
+
+                     </div>
+
+
+
+
+
+
+                     <div className={pocetnaStyles.prazan_div}>
+
+                           </div>
+
+
                 
             </div>
         )
