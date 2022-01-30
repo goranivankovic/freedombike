@@ -46,11 +46,11 @@ export default class Pocetna extends Component {
                      <div className={pocetnaStyles.main_div}>
 
 
-                     {/* <Anime translateX={[-1500,0]} duration={3000}  delay={1000}>         */}
+                    <Anime translateX={[-1500,0]} duration={3000}  delay={1000}>         
                       <div className={pocetnaStyles.headline}>
                        SERVIS ZA BICIKLE, SKI SERVIS, RENT-A BIKE
                        </div>
-                       {/* </Anime> */}
+                      </Anime> 
 
 
                        <div className={pocetnaStyles.main_div_firstDiv}>
