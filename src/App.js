@@ -103,9 +103,10 @@ umanji(a){
       <Pocetna />
 
 
-{/*       
+      
       <Onama />
-
+      
+{/* 
 
       
       <div className={galerijaStyles.galerijaDiv} id="galerija">

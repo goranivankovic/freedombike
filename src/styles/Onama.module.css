@@ -4,13 +4,12 @@
 
 .onamaDiv{
 
-    position: absolute;
-    top: 110vh;
+ 
     height: 150vh;
     width: 100%;
     cursor: pointer;
     background-color:#4da8f8 ;
-    transform: skewY(3deg);
+ 
     z-index: 4;
     font-family: 'Source Code Pro', monospace;
   
@@ -22,7 +21,7 @@
 .onamaDrugiDiv{
     height: 100%;
     width: 100%;
-    transform: skewY(-3deg);
+   
 
   
 
@@ -75,13 +74,11 @@
 
     .onamaDiv{
 
-        position: absolute;
-        top: 225vh;
+      
         height: 240vh;
         width: 100%;
         cursor: pointer;
         background-color:#4da8f8 ;
-        transform: skewY(3deg);
         z-index: 4;
         font-family: 'Source Code Pro', monospace;
       

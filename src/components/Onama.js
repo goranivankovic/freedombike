@@ -37,15 +37,13 @@ export default class Onama extends Component {
                 <Container>
                     <Row>
                         <Col xs={12} className="h4 text-center  text-light">
-                            <br></br>
+    
                          
                             O nama 
-                            <br></br>
-                            <br></br>
+                         
                         </Col>
                         <Col md={12}>
-                            <br></br>
-                            <br></br>
+                        
                          
                             
                             </Col>
@@ -58,8 +56,7 @@ export default class Onama extends Component {
                         data-aos-easing="ease-in-out"
                         data-aos-once="false"
                          >
-                            <br></br>
-                            <br></br>
+                           
                             <img src={b8} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
                           
                              />
@@ -86,7 +83,7 @@ export default class Onama extends Component {
                         </Col>
 
                         <Col xs={12} className="text-center text-light h5">
-                            <br></br>
+                     
                          
                            Komentari
                             </Col>
@@ -100,12 +97,11 @@ export default class Onama extends Component {
                             
                             >
                             <span className="text-center" > <RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" />  Pre mesec dana</span>
-                                <br></br>
-                                <br></br>
+                            
                               
                        
                             Servis za bicikle, ujedno i prodajno mesto, u širem centru grada. Rad je kvalitetan, cene prihvatljive, a pri tome nema prevelikog čekanja.
-                            <br></br>
+                          
                        
                      
                             <span className="text-danger float-right">-Nikola T.</span>
@@ -121,12 +117,11 @@ export default class Onama extends Component {
                                                      data-aos-once="false"
                             >
                             <span className="text-center"><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" />  Pre tri meseca </span>
-                                <br></br>
-                                <br></br>
+                             
                               
                        
                                 Super je ovaj servis! Baš su brzi i nisu skupi naročito za komplet godišji servis. Sve pohvale!
-                            <br></br>
+                           
                        
                      
                             <span className="text-danger float-right">-Sofija M.</span>
