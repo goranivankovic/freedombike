@@ -4,90 +4,193 @@
 
 
 .galerijaDiv{
-    position: absolute;
-    top: 260vh;
+
     height: 100vh;
     width: 100%;
     font-family: 'Source Code Pro', monospace;
     cursor: pointer;
     background-color: whitesmoke;
-    transform: skewY(3deg);
-    z-index: 5;
-  
-  
- 
- 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+
 }
-.galerijaDrugiDiv{
-    height: 100%;
+.galerijaHeadline{
+    height: 10vh;
     width: 100%;
-    transform: skewY(-3deg);
+    color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
 
 }
 .slikaHW{
-    height: 20vh;
+    height: 28vh;
+    width: 24%;
+    border-radius:7px;
+}
+
+.mainDiv_images{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+
+
+
+}
+.mainDiv_images_firstRow{
     width: 100%;
-    border-radius:8px;
+    height: 32%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid grey; */
+}
+
+.mainDiv_images_secondRow{
+    width: 100%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainDiv_images_threedRow{
+    width: 100%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .couroselDiv{
-
-
-    position: absolute;
- 
     height: 100vh;
     width: 100%;
-    z-index: 10;
-    background-image: linear-gradient(to right, #493e3e , #4da8f8);
-   
+    background-color: grey;
     display: flex;
     align-items: center;
-    cursor: pointer;
-
-    
-
+    justify-content: center;
 }
-.couroselDiv img{
 
-    height: 85vh;
-    width: 100%;
- 
+img{
+    height: 65vh;
+    width: 80%;
 }
+
+
+
 
 
 @media only screen and (max-width: 768px) {
 
+
     .galerijaDiv{
-        position: absolute;
-        top: 466vh;
-        height: 600vh;
+
+        height: 635vh;
         width: 100%;
         font-family: 'Source Code Pro', monospace;
         cursor: pointer;
         background-color: whitesmoke;
-        transform: skewY(3deg);
-        z-index: 5;
-      
-      
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-around;
+    
+
      
-     
+    }
+    .galerijaHeadline{
+        height: 10vh;
+        width: 100%;
+        color:black ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    
+    
+    }
+
+
+    .mainDiv_images{
+        height: 620vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    
+    
+    
+    }
+    .mainDiv_images_firstRow{
+        width: 100%;
+        height: 205vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .mainDiv_images_secondRow{
+        width: 100%;
+        height: 205vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .mainDiv_images_threedRow{
+        width: 100%;
+        height: 205vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .slikaHW{
-        height: 45vh;
+        height: 50vh;
         width: 100%;
-        border-radius:8px;
+        border-radius:7px;
     }
-
-    .couroselDiv img{
-
+    img{
         height: 60vh;
-        width: 100%;
+        width: 85%;
+
     }
     
 
-   
-
-
-
   }
+
+
+
+
+  @media only screen and (max-width: 500px) {
+
+
+
+    .galerijaHeadline{
+        height: 10vh;
+        width: 100%;
+        color:black ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+    
+    
+    }
+
+}
+

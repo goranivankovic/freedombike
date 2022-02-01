@@ -2,15 +2,14 @@
 
 
 .kontaktDiv{
-    position: absolute;
-    top: 560vh;
+ 
     height: 190vh;
     width: 100%;
     font-family: 'Source Code Pro', monospace;
     cursor: pointer;
   
     background-color:#4da8f8 ;
-    transform: skewY(3deg);
+
     z-index: 8;
   
   
@@ -20,7 +19,7 @@
 .kontaktDrugiDiv{
     height: 100%;
     width: 100%;
-    transform: skewY(-3deg);
+
 
   
 
@@ -45,16 +44,15 @@
 @media only screen and (max-width: 768px) {
 
     .kontaktDiv{
-        position: absolute;
-        top: 1450vh;
+ 
         height: 260vh;
         width: 100%;
         font-family: 'Source Code Pro', monospace;
         cursor: pointer;
       
         background-color:#4da8f8 ;
-        transform: skewY(3deg);
-        z-index: 8;
+
+ 
       
       
      
@@ -81,5 +79,3 @@
         
         
         
-          
-     

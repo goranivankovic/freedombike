@@ -185,7 +185,7 @@ export default class Navic extends Component {
                
                          
       
-                         <GoThreeBars className="bars h5 text-light" onClick={()=>{
+                         <GoThreeBars className="bars h4 text-light" onClick={()=>{
 
 
                            let bars=document.querySelector('.bars')

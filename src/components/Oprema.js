@@ -33,112 +33,113 @@ export default class Oprema extends Component {
         return (
             
             <div className={opremaStyles.opremaDiv} id="oprema">
-            <div className={opremaStyles.opremaDrugiDiv}>
-                <Container>
-                    <Row>
-                        <Col xs={12} className="text-center h4 text-dark">
-                            <br></br>
-                            
-                            Oprema
-                            <br></br>
-                          
-                            
-                            
-                            </Col>
-                           
-                            <Col md={4} className={opremaStyles.divSaSlikama} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+               
+               <div className={opremaStyles.headline}>
+                   Oprema
+               </div>
+         
+          <div className={opremaStyles.main_div}>
 
-data-aos="fade-down"
-data-aos-offset="300"
-data-aos-delay="300"
-data-aos-duration="1000"
-data-aos-easing="ease-in-out"
-data-aos-once="false"
-                            >
-                           
-                            <img src={b3} />
-                             Delovi
+              <div className={opremaStyles.main_div_firstRow}>
+              <img src={b3} alt='' 
+                className={opremaStyles.main_div_firstRow_images}
+                onMouseOver={this.umanji} onMouseOut={this.uvecaj} 
+                data-aos="fade-down"
+                data-aos-offset="300"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-once="false"
+               />
 
-                             </Col>
-                                                
-                            <Col md={4} className={opremaStyles.divSaSlikama} onMouseOver={this.umanji} onMouseOut={this.uvecaj} 
-                            data-aos="fade-down"
-                            data-aos-offset="300"
-                            data-aos-delay="600"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false">
-                            <img src={b14} />
+              <img src={b14}  alt='' 
+              className={opremaStyles.main_div_firstRow_images}
+                onMouseOver={this.umanji} onMouseOut={this.uvecaj} 
+                data-aos="fade-down"
+                data-aos-offset="300"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-once="false"
+              />
 
-Najsavremenija Oprema
+              <img src={b7}  alt=''
+               className={opremaStyles.main_div_firstRow_images}
+               onMouseOver={this.umanji} onMouseOut={this.uvecaj} 
+               data-aos="fade-down"
+               data-aos-offset="300"
+               data-aos-delay="900"
+               data-aos-duration="1000"
+               data-aos-easing="ease-in-out"
+               data-aos-once="false"
 
-                               
-                           
-             
-                            </Col>
-                            <Col md={4} className={opremaStyles.divSaSlikama} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
-                            data-aos="fade-down"
-                            data-aos-offset="300"
-                            data-aos-delay="900"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false"
-                            >
-                            <img src={b7} />
-
-Prodaja Bicikla
-
-                               
-                           
-
-                            </Col>
-                         
-                            <Col xs={12} className="text-center h4">
-                            <br></br>
-                            <br></br>
-                       Naši Partneri
-                       <br></br>
-                       <br></br>
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Suntour
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Continental
-                            </Col>
-
-                            <Col sm={3} className="text-center">
-                            Shimano
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Bosch
-                            </Col>
-                            <Col xs={12}>
-                                <br></br>
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Garmin
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Magura
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Schwalbe
-                            </Col>
-                            <Col sm={3} className="text-center">
-                            Favero
-
-                            </Col>
-                           
-
-                         
+               />
 
 
-                    </Row>
-                </Container>
+              </div>
+
+              <div className={opremaStyles.main_div_secondRow}>
+
+                  <div className={opremaStyles.main_div_secondRow_headline}>
+                  Naši Partneri
+                  </div>
+
             
+                  <marquee loop direction="left"
+                   className ={opremaStyles.slideMarquee}
+                   scrollamount="20"
+                   >
+                  Suntour
+                  Continental
+                  Shimano
+                  Bosch
+                  Garmin
+                  Magura
+                  Schwalbe
+                  Favero
 
-                </div>
+                             </marquee>
+
+                             <marquee  direction="right" className ={opremaStyles.slideMarquee}
+                             scrollamount="10"
+                              >
+                  Suntour
+                  Continental
+                  Shimano
+                  Bosch
+                  Garmin
+                  Magura
+                  Schwalbe
+                  Favero
+
+                
+
+                             </marquee>
+
+
+                
+              
+
+                
+
+                  </div>
+
+
+
+          </div>
+
+
+
+
+
+
+
+          <div className={opremaStyles.prazanDiv}>
+
+          </div>
+                            
+        
+               
             </div>
         )
     }

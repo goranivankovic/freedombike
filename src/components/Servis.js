@@ -37,67 +37,72 @@ export default class Servis extends Component {
         return (
             
             <div className={servisStyles.servisDiv} id="servis">
-            <div className={servisStyles.servisDrugiDiv}>
-                <Container>
-                    <Row>
-                        <Col xs={12} className="text-center h4 text-light">
-                            <br></br>
-                            
-                            Servis
+
+
+               <div className={servisStyles.headline}>
+                   Servis
+                </div>
+                          
                           
                             
-                            
-                            </Col>
-                           
-                            <Col md={6} className={servisStyles.servisText} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
-                            data-aos="fade-down"
-                            data-aos-offset="300"
-                            data-aos-delay="300"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false"
-                            >
-                            <br></br>
+                            <div className={servisStyles.mainDiv}>
+
+                          <div className={servisStyles.mainDiv_textLeft}
+                               onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+                                data-aos="fade-down"
+                                data-aos-offset="300"
+                                data-aos-delay="300"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="false"
+                          >
+
                            
                             Naši serviseri su uvek tu za vas. Oni svojom stručnošću, ljubaznošću i strpljenjem rešavaju vaš problem u najkraćem roku. Isti pristup imamo prema svim biciklima. Do sada smo popravljali sve. Od karbonskih bicikla sa profesionalnom opremom, do bicikla koji 15 godina nije bio u voznom stanju.
                             Donesite Vaš bicikl na servis kod nas, i uverite se u naš rad i uslugu. Budite sigurni da će biti perfektno uradjen.
-
-Stalo nam je da potrosači budu zadovoljni a usluga odlična i na vreme.
-Nalazimo se na pristupačnoj lokaciji, omogućavajući našim klijentima lako pronalaženje. 
-                            </Col>
-                                                
-                            <Col md={6} className={servisStyles.servisImgDiv}
-                            data-aos="fade-up"
-                            data-aos-offset="300"
-                            data-aos-delay="900"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false"
-                            >
-                                <Container>
-                                    <Row>
-                                        <Col md={12}>
-                                            <img src={b2}onMouseOver={this.umanji} onMouseOut={this.uvecaj} />
-                                          
-                                        </Col>
-                                        <Col md={12}>
-                                            <img src={b13} onMouseOver={this.umanji} onMouseOut={this.uvecaj} />
-                                          
-                                        </Col>
-                                      
-                                     
-                                   
-                                    </Row>
-                                </Container>
-                              
+                            Stalo nam je da potrosači budu zadovoljni a usluga odlična i na vreme.
+                           Nalazimo se na pristupačnoj lokaciji, omogućavajući našim klijentima lako pronalaženje. 
+                      
+                          </div>
                            
-             
-                            </Col>
-                    </Row>
-                </Container>
+
+
+                          <div className={servisStyles.mainDiv_imagesRight}
+                               data-aos="fade-up"
+                               data-aos-offset="300"
+                               data-aos-delay="600"
+                               data-aos-duration="1000"
+                               data-aos-easing="ease-in-out"
+                               data-aos-once="false"
+
+                          >
+
+                          <img src={b2}onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+                           className={servisStyles.mainDiv_imagesRight_imag1}
+                            />
+
+
+                          <img src={b13} onMouseOver={this.umanji} onMouseOut={this.uvecaj} 
+                           className={servisStyles.mainDiv_imagesRight_imag1}
+                          />
+
+
+
+                          </div>
+
+
+
+        
+                            </div>
+              
+      
+      
+                  <div className={servisStyles.prazanDiv}>
+
+                 </div>
             
 
-                </div>
+             
             </div>
         )
     }

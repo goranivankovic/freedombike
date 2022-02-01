@@ -33,70 +33,76 @@ export default class Onama extends Component {
      
         return (
             <div className={onamaStyles.onamaDiv} id="oNama">
-                <div className={onamaStyles.onamaDrugiDiv}>
-                <Container>
-                    <Row>
-                        <Col xs={12} className="h4 text-center  text-light">
-    
-                         
-                            O nama 
-                         
-                        </Col>
-                        <Col md={12}>
-                        
-                         
-                            
-                            </Col>
 
-                        <Col md={6} className={onamaStyles.divSlika} 
-                        data-aos="fade-up"
-                        data-aos-offset="300"
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-once="false"
-                         >
-                           
-                            <img src={b8} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
-                          
-                             />
-                    
-                        </Col>
-                        <Col md={6} className={onamaStyles.divText} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
-                            data-aos="fade-up"
-                            data-aos-offset="200"
-                            data-aos-delay="600"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false"
-                        
-                        >
+
+                <div className={onamaStyles.headline}>
+                     O nama 
+                </div>
+
+              
+
+               <div className={onamaStyles.mainDiv}>
+
+                  
+
+
+               <div className={onamaStyles.firstDiv}>
+                
+               <img src={b8} className={onamaStyles.slika} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+
+                 data-aos="fade-up"
+                 data-aos-offset="300"
+                 data-aos-delay="50"
+                 data-aos-duration="1000"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="false"
+               
+               />
+
+                  
+                   <div className={onamaStyles.firstDiv_text_right}
+               
+                   onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+                   data-aos="fade-up"
+                   data-aos-offset="200"
+                   data-aos-delay="600"
+                   data-aos-duration="1000"
+                   data-aos-easing="ease-in-out"
+                   data-aos-once="false"
                    
-                     
+                   >
+                   Prepoznatljivi smo u gradu zbog našeg kvaliteta  marljivog rada i profesionalnog tima koji već godinama Novosađanima  pruža vrhunske usluge, fantastičnu ponudu i svakako kvalitetne savete.
+
+Freedom Bike Shop je nastao 2020. godine kao rezultat višegodišnjeg  i internacionalnog iskustva građenog u segmentu prodaje i održavanja, tako i u takmičarskom segmentu na internacionalnom nivou.
+
+Mi smo savršen spoj mladosti i iskustva. Naša pozitivna energija i sportski duh su kombinacija koja vam može pomoći.
                       
-                        Prepoznatljivi smo u gradu zbog našeg kvaliteta  marljivog rada i profesionalnog tima koji već godinama Novosađanima  pruža vrhunske usluge, fantastičnu ponudu i svakako kvalitetne savete.
 
-                        Freedom Bike Shop je nastao 2020. godine kao rezultat višegodišnjeg  i internacionalnog iskustva građenog u segmentu prodaje i održavanja, tako i u takmičarskom segmentu na internacionalnom nivou.
 
-                        Mi smo savršen spoj mladosti i iskustva. Naša pozitivna energija i sportski duh su kombinacija koja vam može pomoći.
-                    
-                        </Col>
+                   </div>
 
-                        <Col xs={12} className="text-center text-light h5">
-                     
-                         
-                           Komentari
-                            </Col>
-                            <Col md={6} className={onamaStyles.divKomentari} onMouseOver={this.umanji} onMouseOut={this.uvecaj}
-                            data-aos="fade-down"
-                            data-aos-offset="300"
-                            data-aos-delay="300"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false"
-                            
-                            >
-                            <span className="text-center" > <RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" />  Pre mesec dana</span>
+                   </div>
+
+
+
+               </div>
+
+
+               <div className={onamaStyles.comment}>
+
+
+
+                  <div className={onamaStyles.comment_left}
+                    onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+                    data-aos="fade-down"
+                    data-aos-offset="300"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="false"
+                  >
+     
+           <div> <RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" />  Pre mesec dana </div>   
                             
                               
                        
@@ -104,37 +110,52 @@ export default class Onama extends Component {
                           
                        
                      
-                            <span className="text-danger float-right">-Nikola T.</span>
-                            </Col>
+                            -Nikola T.
+
+                </div>
 
 
-                            <Col md={6} className={onamaStyles.divKomentari2}onMouseOver={this.umanji} onMouseOut={this.uvecaj}
-                                                     data-aos="fade-down"
-                                                     data-aos-offset="300"
-                                                     data-aos-delay="600"
-                                                     data-aos-duration="1000"
-                                                     data-aos-easing="ease-in-out"
-                                                     data-aos-once="false"
-                            >
-                            <span className="text-center"><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" />  Pre tri meseca </span>
+
+
+                     
+
+                <div className={onamaStyles.comment_right}
+                 onMouseOver={this.umanji} onMouseOut={this.uvecaj}
+                 data-aos="fade-down"
+                 data-aos-offset="300"
+                 data-aos-delay="600"
+                 data-aos-duration="1000"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="false"
+                >
+
+              <div> <RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" /><RiStarSFill className="text-warning" />  Pre tri meseca </div> 
                              
                               
                        
-                                Super je ovaj servis! Baš su brzi i nisu skupi naročito za komplet godišji servis. Sve pohvale!
-                           
-                       
-                     
-                            <span className="text-danger float-right">-Sofija M.</span>
-                            </Col>
-
-
-
-                      
+                             Super je ovaj servis! Baš su brzi i nisu skupi naročito za komplet godišji servis. Sve pohvale!
                         
-                 
-                    </Row>
-                </Container>
-                </div>
+                    
+                  
+                         -Sofija M.
+
+
+
+                    </div>
+
+
+
+
+
+               </div>
+
+
+
+       
+    
+                         
+
+       
                 
             </div>
         )

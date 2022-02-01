@@ -2,53 +2,66 @@
 
 
 .servisDiv{
-    position: absolute;
-    top: 360vh;
     height: 100vh;
     width: 100%;
     font-family: 'Source Code Pro', monospace;
     cursor: pointer;
-  
     background-color:#4da8f8 ;
-    transform: skewY(3deg);
-    z-index: 6;
-  
-  
- 
- 
-}
-.servisDrugiDiv{
-    height: 100%;
-    width: 100%;
-    transform: skewY(-3deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
 }
-.servisText{
-    height: 65vh;
-    width: 100%;
-   border-radius: 8px;
-    background-color: whitesmoke;
-    color: black;
+.headline{
+    height: 10vh;
+    width: 75%;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
-    font-size: 1em;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+
 }
-
-.servisImgDiv{
-    height: 65vh;
-    width: 100%;
-   border-radius: 8px;
-
-
+.mainDiv{
+    height: 80vh;
+    width: 75%;
     display: flex;
     align-items: center;
-    font-size: 1em;
- 
+    justify-content: space-around;
+
 }
-img{
-    height: 30vh;
-    width: 100%;
-    margin: 3px;
+
+.mainDiv_textLeft{
+    height: 98%;
+    width: 48%;
+    padding: 10px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.mainDiv_imagesRight{
+    height: 98%;
+    width: 48%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.mainDiv_imagesRight_imag1{
+    height: 42%;
+    width: 78%;
     border-radius: 7px;
 }
 
@@ -57,67 +70,233 @@ img{
 
 
 
-@media only screen and (max-width: 991px) {
-    .servisText{
-        height: 65vh;
-        width: 100%;
-       border-radius: 8px;
-        background-color: whitesmoke;
-        color: black;
+.prazanDiv{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1250px) {
+
+
+    .mainDiv_textLeft{
+        height: 98%;
+        width: 48%;
+        padding: 10px;
         display: flex;
         align-items: center;
-        font-size:0.8em;
+        justify-content: space-around;
+        color: white;
+        font-size: 1rem;
     }
-  
+
   }
 
+
+
   
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:1000px) {
+
+
+    .mainDiv_textLeft{
+        height: 98%;
+        width: 48%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-size: .9rem;
+    }
+
+  }
+
+    
+@media only screen and (max-width:900px) {
+
+
+    .mainDiv_textLeft{
+        height: 98%;
+        width: 48%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-size: .85rem;
+    }
+
+  }
+
+
+
+
+   
+@media only screen and (max-width:768px) {
+
+
     
 .servisDiv{
-    position: absolute;
-    top:1060vh;
     height: 180vh;
     width: 100%;
     font-family: 'Source Code Pro', monospace;
     cursor: pointer;
-  
     background-color:#4da8f8 ;
-    transform: skewY(3deg);
-    z-index: 6;
-  
-  
- 
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.headline{
+    height: 10vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.mainDiv{
+    height: 155vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.mainDiv_textLeft{
+    height: 50vh;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: .9rem;
 }
 
 
-    .servisImgDiv{
-        height: 91vh;
-        width: 100%;
-       border-radius: 8px;
+.mainDiv_imagesRight{
+    height: 105vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.mainDiv_imagesRight_imag1{
+    height: 50vh;
+    width: 98%;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+ 
+
+  }
+
+
+
+  @media only screen and (max-width:600px){
+    .headline{
+        height: 10vh;
+        width: 90%;
         display: flex;
         align-items: center;
-        font-size: 1em;
-        margin-bottom: 10px;
-     
+        justify-content: center;
+        color: white;
+        font-size: 1.2rem;
+    
+    }
+    .mainDiv{
+        height: 155vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
     }
 
 
 
-    img{
-        height: 45vh;
-        width: 100%;
-        margin: 3px;
-        border-radius: 7px;
+    .mainDiv_textLeft{
+        height: 50vh;
+        width:100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-size: .8rem;
     }
     
 
 
 
-  
+
+  }
+
+
+  @media only screen and (max-width:410px){
+ 
+    .mainDiv_textLeft{
+        height: 50vh;
+        width:100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-size: .75rem;
+    }
+    
+
+
+
+
   }
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

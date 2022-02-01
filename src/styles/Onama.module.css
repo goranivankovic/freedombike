@@ -5,102 +5,602 @@
 .onamaDiv{
 
  
-    height: 150vh;
+    height: 100vh;
     width: 100%;
     cursor: pointer;
     background-color:#4da8f8 ;
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     z-index: 4;
     font-family: 'Source Code Pro', monospace;
-  
-  
-  
- 
+
  
 }
-.onamaDrugiDiv{
-    height: 100%;
-    width: 100%;
-   
 
-  
-
-}
-.divSlika{
-    height: 65vh;
-    width: 100%;
-
-
-}
-.divText{
-    height: 65vh;
-    width: 100%;
-    color: whitesmoke;
-    background-color: #493e3e;
+.headline{
+    height: 10vh;
+    width: 75%;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
 
+.mainDiv{
+    height: 60vh;
+    width: 75%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
 
-}
-.divSlika img{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-}
-.divKomentari{
-    height: 30vh;
-    width: 100%;
-    background-color:  #493e3e;
-    border-radius: 8px;
-    color: whitesmoke;
-   
-   
-  
-  
-}
-.divKomentari2{
-    height: 30vh;
-    width: 100%;
-    background-color:  whitesmoke;
-    border-radius: 8px;
     
-  
-  
 }
+.firstDiv{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ .slika{
+    height: 98%;
+    width: 48%;
+}
+
+.firstDiv_text_right{
+    height: 98%;
+    width: 48%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 7px;
+
+} 
+
+
+
+
+
+.comment{
+    height: 25vh;
+    width: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.comment_left{
+    width: 48%;
+    height: 98%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: grey;
+
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+
+.comment_right{
+    width: 48%;
+    height: 98%;
+    padding: 10px;
+    color: black;
+    /* border: 1px solid black; */
+    background-color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+
+
+@media only screen and (max-width: 1240px) {
+
+    .firstDiv_text_right{
+        height: 100%;
+        width: 48%;
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+        background-color: gray;
+        padding: 10px;
+    
+    } 
+
+
+
+    
+.comment_left{
+    width: 48%;
+    height: 98%;
+    padding: 10px;
+    background-color: grey;
+
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
+.comment_right{
+    width: 48%;
+    height: 98%;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+    
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .firstDiv_text_right{
+        height: 100%;
+        width: 48%;
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+        background-color: gray;
+        padding: 10px;
+    
+    } 
+
+
+
+    
+.comment_left{
+    width: 48%;
+    height: 98%;
+    padding: 10px;
+    background-color: grey;
+
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
+.comment_right{
+    width: 48%;
+    height: 98%;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+    
+
+
+
+}
+   
+
+   
+
+
+
 
 @media only screen and (max-width: 768px) {
 
-    .onamaDiv{
+    
+.onamaDiv{
 
-      
-        height: 240vh;
+ 
+    height: 165vh;
+    width: 100%;
+    cursor: pointer;
+    background-color:#4da8f8 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 4;
+    font-family: 'Source Code Pro', monospace;
+ 
+}
+
+    .headline{
+        height: 10vh;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .mainDiv{
+        height:95vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+  
+       
+    
+        
+    }
+
+    .firstDiv{
+        width: 100%;
+        height: 92vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .firstDiv_text_right{
+        height:40vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+        background-color: gray;
+        padding: 10px;
+    
+    } 
+
+    .slika{
+        height:50vh;
+        width:100%;
+    }
+
+
+
+
+    
+.comment{
+    height: 55vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+
+
+}
+
+.comment_left{
+    width: 98%;
+    height: 25vh;
+    padding: 10px;
+    background-color: grey;
+
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+
+.comment_right{
+    width: 98%;
+    height: 25vh;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    
+    .onamaDiv{
+    
+     
+        height: 165vh;
         width: 100%;
         cursor: pointer;
         background-color:#4da8f8 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         z-index: 4;
         font-family: 'Source Code Pro', monospace;
-      
-      
-      
-     
      
     }
-
-    .divText{
-        height: 65vh;
-        width: 100%;
-        color: whitesmoke;
-        background-color: #493e3e;
+    
+        .headline{
+            height: 10vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.3rem;
+        }
+    
+        .mainDiv{
+            height:95vh;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+      
+           
+        
+            
+        }
+    
+        .firstDiv{
+            width: 100%;
+            height: 92vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+    
+          .firstDiv_text_right{
+            height:40vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            font-size: .7rem;
+            background-color: gray;
+            padding: 10px;
+        
+        } 
+    
+        .slika{
+            height:50vh;
+            width:100%;
+        }
+    
+    
+    
+    
+        
+    .comment{
+        height: 55vh;
+        width: 90%;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        font-size: 0.9em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: white;
     
     
     }
+    
+    .comment_left{
+        width: 98%;
+        height: 25vh;
+        padding: 10px;
+        background-color: grey;
+    
+        font-size: .7rem;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    
+    
+    .comment_right{
+        width: 98%;
+        height: 25vh;
+        padding: 10px;
+        color: black;
+        background-color: white;
+        font-size: .7rem;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    
+        
+    
+    
+    }
+    
 
 
 
 
-  }
+    
+@media only screen and (max-width: 400px) {
+
+    
+    .onamaDiv{
+    
+     
+        height: 165vh;
+        width: 100%;
+        cursor: pointer;
+        background-color:#4da8f8 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 4;
+        font-family: 'Source Code Pro', monospace;
+     
+    }
+    
+        .headline{
+            height: 10vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+    
+        .mainDiv{
+            height:95vh;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+      
+           
+        
+            
+        }
+    
+        .firstDiv{
+            width: 100%;
+            height: 92vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+    
+          .firstDiv_text_right{
+            height:40vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            font-size: .6rem;
+            background-color: gray;
+            padding: 10px;
+        
+        } 
+    
+        .slika{
+            height:50vh;
+            width:100%;
+        }
+    
+    
+    
+    
+        
+    .comment{
+        height: 55vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: white;
+    
+    
+    }
+    
+    .comment_left{
+        width: 98%;
+        height: 25vh;
+        padding: 10px;
+        background-color: grey;
+    
+        font-size: .6rem;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    
+    
+    .comment_right{
+        width: 98%;
+        height: 25vh;
+        padding: 10px;
+        color: black;
+        background-color: white;
+        font-size: .6rem;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    
+        
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
