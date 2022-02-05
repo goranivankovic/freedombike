@@ -39,97 +39,109 @@ export default class Kontakt extends Component {
         return (
 
             <div className={kontaktStyles.kontaktDiv} id="kontakt">
-            <div className={kontaktStyles.kontaktDrugiDiv}>
-                <Container>
-                    <Row>
-                        <Col xs={12} className="text-center h4 text-light">
+
+
+            <div  className={kontaktStyles.headline}>
+                Kontakt
+
+            </div>
+
+
+
+
+
+            <div  className={kontaktStyles.firstDiv}>
+
+            <iframe 
+      
+            className={kontaktStyles.firstDiv_items}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.7466160786526!2d19.8324705154579!3d45.252916355537735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b119549ec7175%3A0xf061dc7755f86c90!2sFreedom%20Bike!5e0!3m2!1sen!2srs!4v1624907459579!5m2!1sen!2srs"  width="100%" height="100%" style={{borderRadius:'7px'}}  loading="lazy"></iframe>
+             
+             
+
+
+                  
+
+
+              
                            
-                            <br></br>
-                            Kontakt
-                         
-                            </Col>
-
-                            <Col md={6} className={kontaktStyles.kontaktSlika} data-aos="fade-down"
-                                data-aos-offset="300"
-                                data-aos-delay="300"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out"
-                                data-aos-once="false"
-                                >
-                                <br></br>
-
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.7466160786526!2d19.8324705154579!3d45.252916355537735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b119549ec7175%3A0xf061dc7755f86c90!2sFreedom%20Bike!5e0!3m2!1sen!2srs!4v1624907459579!5m2!1sen!2srs" width="100%" height="100%" style={{borderRadius:'7px'}}  loading="lazy"></iframe>
-
-                            </Col>
-
-                            <Col md={6} className={kontaktStyles.kontaktSlika}
-                            data-aos="fade-down"
-                            data-aos-offset="300"
-                            data-aos-delay="900"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out"
-                            data-aos-once="false">
-                                <br></br>
-                                <Form onSubmit={this.sendEmailAndMessage}>
+              <Form onSubmit={this.sendEmailAndMessage} 
+               className={kontaktStyles.firstDiv_items}
+       
+              >
 
 
-                                <FormGroup>
-                  <FormLabel className="float-left text-light">Ime I prezime</FormLabel>
-                  <FormControl type="text" name="ime" placeholder="Ime i Prezime..." required={true}  />
+                   <FormGroup style={{width:"90%"}}>
+                    {/* <FormLabel className="float-left text-light">Ime I prezime</FormLabel> */}
+                    <FormControl type="text" name="ime" placeholder="Ime i Prezime..." required={true}  />
 
-              </FormGroup>
-		
+                    </FormGroup>
 
-              <FormGroup>
-                  <FormLabel className="float-left text-light">Email</FormLabel>
-                  <FormControl type="email" name="email" placeholder="Email..." required={true}  />
 
-              </FormGroup>
+                   <FormGroup style={{width:"90%"}}>
+                    {/* <FormLabel className="float-left text-light">Email</FormLabel> */}
+                    <FormControl type="email" name="email" placeholder="Email..." required={true}  />
 
-                    <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <FormLabel className="float-left text-light">Poruka</FormLabel>
-                        
-                        <Form.Control as="textarea" placeholder="Posalji poruku..." rows="6" name="poruka"/>
+                    </FormGroup>
+
+                     <Form.Group controlId="exampleForm.ControlTextarea1" style={{width:"90%"}}>
+                     {/* <FormLabel className="float-left text-light">Poruka</FormLabel> */}
+
+                     <Form.Control as="textarea" placeholder="Posalji poruku..." rows="4" name="poruka"/>
+                     
                     </Form.Group>
-                    <Button className="float-right bg-light text-dark btn-sm" type="submit"> Send</Button>
-                </Form>
+
+                    <Button  className="float-right bg-light text-dark" size='md' type="submit"> Send</Button>
+              
+                     </Form>
+                    
+
+
+
+            </div>
 
 
 
 
 
-                                </Col>
 
-                                <Col className="text-light text-center" md={6}>
-                                <br></br>
-                                <br></br>
-                                
-                               <span className="text-warning">Adressa:</span> Ćirpanova 8, Novi Sad
-                                </Col>
+            <div  className={kontaktStyles.secondDiv}>
 
-                                <Col className="text-light text-center" md={6}>
-                                <br></br>
-                                <br></br>
-                                
-                               <span className="text-warning">Broj Telefona:</span> +381/060-373-33-64
-                                </Col>
-                                <Col className="text-light text-center" xs={6}>
-                                <br></br>
-                                
-                                <span className="text-warning">Instagram:</span> <a href ="https://www.instagram.com/freedombikeshop/?hl=en"><FaInstagram  className="text-light h2"/></a>
-                                </Col>
+                <div className={kontaktStyles.secondDiv_items}>
+                  Ćirpanova 8, Novi Sad
 
-                                <Col className="text-light text-center" xs={6}>
-                                <br></br>
-                                
-                                <span className="text-warning">Facebook:</span> <a href ="https://www.instagram.com/freedombikeshop/?hl=en"><FaFacebook  className="text-light h2"/></a>
-                                </Col>
+                </div>
+
+           
+
+                <div className={kontaktStyles.secondDiv_items30}>
+                <a href ="https://www.instagram.com/freedombikeshop/?hl=en"><FaFacebook  className="text-light h2"/></a>
+
+                </div>
+                
+                <div className={kontaktStyles.secondDiv_items}>
+                +381/060-373-33-64
+
+                </div>
 
 
+                <div className={kontaktStyles.secondDiv_items30}>
+                <a href ="https://www.instagram.com/freedombikeshop/?hl=en"><FaInstagram  className="text-light h2"/></a>
 
-                                <Col className="text-light text-center " md={12}>
-                                <br></br>
-                                <Table striped bordered hover variant="dark">
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+           {/* <div className={kontaktStyles.threedDiv}>
+
+       
+            <Table striped responsive bordered hover variant="dark">
                                         <thead>
                                      <tr>
                                    <th colSpan="2">Radno vreme</th>
@@ -176,28 +188,27 @@ export default class Kontakt extends Component {
                              </tr>
                        </tbody>
                   </Table>
-                              
-
-                                </Col>
-                                <Col xs={12} className="text-light text-center h5">
-                                    <br></br>
-                                    <br></br>
-                                   
-                                      All Rights Reserved || <a href="https://gogadesign.uk/" className="text-light"> gogaDesign<FiHexagon className="text-danger" /></a>2021 
-                                 
-                                </Col>
+                  </div>
+                               */}
 
 
-                      
-                     
+               
 
 
-                          
-                    </Row>
-                </Container>
-            
+
+                <div className={kontaktStyles.prazanDiv}>
 
                 </div>
+
+
+
+
+
+
+                    
+
+
+
             </div>
 
 
