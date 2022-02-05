@@ -97,7 +97,6 @@ export default class Kontakt extends Component {
                     
 
 
-
             </div>
 
 
