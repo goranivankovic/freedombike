@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import{Container,Row,Col } from 'react-bootstrap'
-import navicStyles from '../styles/Navic.module.css'
+import navicStyles from '../../styles/Navic.module.css'
 import {GoThreeBars} from 'react-icons/go'
 import Anime from 'react-anime'
 import{ImCross} from 'react-icons/im'

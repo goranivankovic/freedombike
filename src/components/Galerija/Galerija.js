@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import galerijaStyles from '../styles/Galerija.module.css'
+import galerijaStyles from '../../styles/Galerija.module.css'
 import{Container,Row,Col,Carousel } from 'react-bootstrap'
 import{ImCross} from 'react-icons/im'
 

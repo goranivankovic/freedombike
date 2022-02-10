@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import kontaktStyles from '../styles/Kontakt.module.css'
+import kontaktStyles from '../../styles/Kontakt.module.css'
 import{Container,Row,Col,Form,FormGroup,FormControl,FormLabel,Button,Table} from 'react-bootstrap'
 import {FaFacebook, FaInstagram} from 'react-icons/fa'
 import{FiHexagon}from 'react-icons/fi'

@@ -5,11 +5,11 @@ import logo from './logo.svg';
 import './App.css';
 import{Container,Row,Col,Carousel } from 'react-bootstrap'
 
-import Navic from './components/Navic';
-import Pocetna from './components/Pocetna';
-import Onama from './components/Onama';
-import Servis from './components/Servis';
-import Oprema from './components/Oprema';
+import Navic from './components/Nav/Navic';
+import Pocetna from './components/Pocetna/Pocetna';
+import Onama from './components/Onama/Onama';
+import Servis from './components/Servis/Servis';
+import Oprema from './components/Oprema/Oprema';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -42,7 +42,7 @@ import b17 from './img/b17.jpg'
 
 import{ImCross} from 'react-icons/im'
 import { RiBug2Fill } from 'react-icons/ri';
-import Kontakt from './components/Kontakt';
+import Kontakt from './components/Kontakt/Kontakt';
 
 
 

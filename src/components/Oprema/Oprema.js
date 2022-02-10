@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import opremaStyles from '../styles/Oprema.module.css'
+import opremaStyles from '../../styles/Oprema.module.css'
 import{Container,Row,Col } from 'react-bootstrap'
 
-import b14 from '../img/b14.jpg'
-import b3 from '../img/b3.jpg'
-import b7 from '../img/b7.jpg'
+import b14 from '../../img/b14.jpg'
+import b3 from '../../img/b3.jpg'
+import b7 from '../../img/b7.jpg'
 
 
 export default class Oprema extends Component {

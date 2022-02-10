@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 
 import{MdDirectionsBike} from 'react-icons/md'
 import{Container,Row,Col ,Carousel} from 'react-bootstrap'
-import pocetnaStyles from '../styles/Pocetna.module.css'
-import b11 from '../img/b11.jpg'
-import b15 from '../img/b15.jpg'
-import b4 from '../img/b4.jpg'
-import bikeVideo from '../video/bike.mp4'
-import bikeDown from '../video/bikeDown.mp4'
+import pocetnaStyles from '../../styles/Pocetna.module.css'
+import b11 from '../../img/b11.jpg'
+import b15 from '../../img/b15.jpg'
+import b4 from '../../img/b4.jpg'
+import bikeVideo from '../../video/bike.mp4'
+import bikeDown from '../../video/bikeDown.mp4'
 import Anime from 'react-anime'
 import AOS from 'aos';
 

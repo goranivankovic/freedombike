@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import servisStyles from '../styles/Servis.module.css'
+import servisStyles from '../../styles/Servis.module.css'
 import{Container,Row,Col,Carousel } from 'react-bootstrap'
 
 
-import b2 from '../img/b2.jpg'
+import b2 from '../../img/b2.jpg'
 
-import b13 from '../img/b13.jpg'
-import b5 from '../img/b5.jpg'
+import b13 from '../../img/b13.jpg'
+import b5 from '../../img/b5.jpg'
 
 
 

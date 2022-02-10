@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import onamaStyles from '../styles/Onama.module.css'
+import onamaStyles from '../../styles/Onama.module.css'
 import{Container,Row,Col } from 'react-bootstrap'
-import b8 from '../img/b8.jpg'
+import b8 from '../../img/b8.jpg'
 import {RiStarSFill} from 'react-icons/ri'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
